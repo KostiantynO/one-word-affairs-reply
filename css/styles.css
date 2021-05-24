@@ -1,0 +1,34 @@
+::root {
+  --decovar: orange;
+}
+
+/* Positioning */
+.text-bold {
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 21px;
+}
+
+.h-2,
+.attributes {
+  margin: 0 auto;
+}
+
+/* Block-model */
+
+.text-bold {
+  display: block;
+}
+
+/* Typography */
+
+.text-bold {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Visuals */
+
+.decoration {
+  color: var(--decovar);
+}
