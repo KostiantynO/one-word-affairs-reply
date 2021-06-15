@@ -1,5 +1,15 @@
-::root {
-  --decovar: orange;
+:root {
+  --color-one-love: orange;
+}
+
+body {
+  max-width: 1600px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Positioning */
@@ -29,6 +39,6 @@
 
 /* Visuals */
 
-.decoration {
-  color: var(--decovar);
+.one-love {
+  color: var(--color-one-love);
 }
